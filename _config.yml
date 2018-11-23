@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark"  # "default" # "air", "aqua", "contrast", "dar
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "blog.technical.me"
+title                    : "Engine"
 title_separator          : "-"
 name                     : "Lenard Bernardo"
 description              : "Language agnostic engineer, here to share his interesting findings in the road to #fullstack."
