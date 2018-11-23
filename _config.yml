@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise"  # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark"  # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "blog.haven.me"
+title                    : "blog.technical.me"
 title_separator          : "-"
 name                     : "Lenard Bernardo"
-description              : "Raised as a Catholic, learning as a Man of God."
+description              : "Language agnostic engineer, here to share his interesting findings in the road to #fullstack."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # "/haven" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -105,28 +105,28 @@ analytics:
 author:
   name             : "Lenard Bernardo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Raised as a Catholic, learning as a Man of God."
+  bio              : "Language agnostic engineer, here to share his interesting findings in the road to #fullstack."
   location         : "Regents Park"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Language Agnostic"
+    - label: "Haven"
       icon: "fas fa-fw fa-link"
-      url: "https://ltbrujahh.github.io/language-agnostic"
+      url: "https://ltbrujahh.github.io/haven"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/lt.bernardo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/ltbrujahh"
 
 # Site Footer
 footer:
@@ -136,7 +136,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/lt.bernardo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -148,7 +148,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/ltbrujahh"
 
 
 # Reading Files
