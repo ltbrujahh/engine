@@ -109,7 +109,7 @@ analytics:
 # Site Author
 author:
   name             : "Lenard Bernardo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Language agnostic engineer, here to share his interesting findings in the road to #fullstack."
   location         : "Sydney, Australia"
   email            :
