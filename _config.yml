@@ -16,46 +16,51 @@ minimal_mistakes_skin    : "dark"  # "default" # "air", "aqua", "contrast", "dar
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "Engine"
+title                    : "blog.engine.me"
 title_separator          : "-"
 name                     : "Lenard Bernardo"
-description              : "Language agnostic engineer, here to share his interesting findings in the road to #fullstack."
+description              : "A technical blog site during my journey to #fullstack"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ltbrujahh/engine" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                : 
+    num_posts            : 99 # 5 (default)
+    colorscheme          : "dark" # "light" (default), "dark"
+
+  ###### not required ###### 
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  staticman:
+    allowedFields          : # ['name', 'email', 'url', 'message']
+    branch                 : # "master"
+    commitMessage          : # "New comment by {fields.name}"
+    filename               : # comment-{@timestamp}
+    format                 : # "yml"
+    moderation             : # true
+    path                   : # "/_data/comments/{options.slug}" (default)
+    requiredFields         : # ['name', 'email', 'message']
+    transforms:
+      email                : # "md5"
+    generatedFields:
+      date:
+        type               : # "date"
+        options:
+          format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+    endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  ###### end not required ###### 
+
 reCaptcha:
   siteKey                :
   secret                 :
@@ -82,7 +87,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : "lt.bernardo"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -106,46 +111,42 @@ author:
   name             : "Lenard Bernardo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Language agnostic engineer, here to share his interesting findings in the road to #fullstack."
-  location         : "Regents Park"
+  location         : "Sydney, Australia"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lenard-bernardo"  
+
     - label: "Haven"
       icon: "fas fa-fw fa-link"
       url: "https://ltbrujahh.github.io/haven"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/lt.bernardo"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/ltbrujahh"
 
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ltbrujahh"
+
+
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ltbrujahh"
+
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/lt.bernardo"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/ltbrujahh"
@@ -287,6 +288,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
