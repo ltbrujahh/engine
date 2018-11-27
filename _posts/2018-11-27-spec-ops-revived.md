@@ -9,13 +9,12 @@ classes: wide
 # TL;DR
 * nice visual upgrades for `engine`
 * retrospective on SpecOps, lessons learned and moving forward
-* ionic4 might be the next big thing for mobile development
+* `ionic4` might be the next big thing for mobile development
 
 ---
 
 # Some upgrades
 Everything looks **so** much better using this `minimal-mistakes` theme. Took a while to configure certain parts of the system, like links to my other websites and being able to share on social media.
-we
 
 Which got me thinking, I'm *pretty sure* `#fullstack` doesn't just mean online web content and SQL databases, but also the mobile environment, such as phone apps.
 
