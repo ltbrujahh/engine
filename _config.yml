@@ -31,7 +31,7 @@ comments:
   provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : 
+    appid                : 1851087708333304
     num_posts            : 99 # 5 (default)
     colorscheme          : "dark" # "light" (default), "dark"
 
